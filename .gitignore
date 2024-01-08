@@ -22,17 +22,8 @@ db.sqlite3
 .vscode/
 .idea/
 
-# Compiled Python files
-*.pyc
-
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 
 # Caches
-__pycache__/
 .cachetools/
 
 # Backup files
@@ -43,3 +34,6 @@ __pycache__/
 
 # Ignore migrations, as they can be specific to each developer's local setup
 **/migrations/
+
+polls/__pycache__/
+*.py[cod]
